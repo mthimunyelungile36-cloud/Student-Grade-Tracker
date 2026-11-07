@@ -62,7 +62,7 @@ private Attendance attendance = new Attendance();
         jButton5 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Student Performance Tracker");
+        setTitle("Student Grade Tracker");
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel1.setText("Student no.:");
