@@ -20,7 +20,7 @@ A group project - Java Swing app with Derby database.
    -Enter attended and total attendance ,then press "Attendance"
    -Press "Report" to display the full report
    - Press "Export Report" to export the report
- Derby database is in schoolDB folder
+6. Derby database is in schoolDB folder
 
 ## Technologies
 Java, Java Swing, Apache Derby, NetBeans
