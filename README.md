@@ -3,7 +3,7 @@
 A group project - Java Swing app with Derby database.
 
 ## What it does
-- Add, view, update and delete students
+- Add and view students
 - Capture and calculate grades
 - Generate report.csv
 
