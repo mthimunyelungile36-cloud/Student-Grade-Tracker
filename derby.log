@@ -1,0 +1,20 @@
+Sat Nov 07 11:19:45 SAST 2026 : Apache Derby Network Server - 10.17.1.0 - (1913217) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Sat Nov 07 11:19:45 SAST 2026:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instance a816c00e-01a1-b54e-87f4-ffffdca03556 
+on database directory C:\Users\lungz\Documents\NetBeansProjects\JavaApplication36\schoolDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@18ff02e4 
+Loaded from file:/C:/Users/lungz/Downloads/db-derby-10.17.1.0-bin%20(1)/db-derby-10.17.1.0-bin/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=26.0.2+10-55
+user.dir=C:\Users\lungz\Downloads\db-derby-10.17.1.0-bin (1)\db-derby-10.17.1.0-bin
+os.name=Windows 11
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\lungz\Documents\NetBeansProjects\JavaApplication36
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Nov 07 11:34:12 SAST 2026: Shutting down Derby engine
+----------------------------------------------------------------
+Sat Nov 07 11:34:12 SAST 2026:
+Shutting down instance a816c00e-01a1-b54e-87f4-ffffdca03556 on database directory C:\Users\lungz\Documents\NetBeansProjects\JavaApplication36\schoolDB with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@18ff02e4 
+----------------------------------------------------------------
