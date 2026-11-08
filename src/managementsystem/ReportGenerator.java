@@ -24,9 +24,9 @@ public class ReportGenerator {
             totalWeights += g.getWeight();
         }
         
-        double gpa = 0;
+        double finalMark = 0;
         if (totalWeights != 0) {
-            gpa = totalWeightedMarks / totalWeights;
+            finalMark = totalWeightedMarks / totalWeights;
         }
 
         // Build report
@@ -40,7 +40,7 @@ public class ReportGenerator {
          String letter = gs.getLetter(g.getMark());
          report.append(g.getCode()).append(" - ").append(g.getSubject()).append(": ").append(g.getMark()).append("(").append(letter).append(") (Weight: ").append(g.getWeight()).append(")\n");
 }
-        report.append("\nGPA: ").append(String.format("%.2f", gpa)).append(" weighted\n");
+        report.append("\nfinalMark: ").append(String.format("%.2f", finalMark)).append(" weighted\n");
         report.append("Attendance: ").append(attendance.getAttended()).append("/").append(attendance.getTotal());
         report.append(" (").append(String.format("%.2f", attendance.getPercentage())).append("%)\n");
 
