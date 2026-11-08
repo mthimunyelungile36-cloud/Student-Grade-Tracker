@@ -64,6 +64,13 @@ public class Grade {
             return 'F';
         }
     }
+    public double getGpaPoint() {
+    if (mark >= 80) return 4.0;
+    if (mark >= 70) return 3.0;
+    if (mark >= 60) return 2.0;
+    if (mark >= 50) return 1.0;
+    return 0.0;
+}
 
     // Returns a formatted string representation of the grade details
     @Override
