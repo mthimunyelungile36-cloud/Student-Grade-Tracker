@@ -18,15 +18,19 @@ public class ReportGenerator {
         // Calculate weighted GPA
         double totalWeightedMarks = 0;
         double totalWeights = 0;
+        double totalWeightedGpa=0;
         
         for (Grade g : grades) {
             totalWeightedMarks += g.getMark() * g.getWeight();
             totalWeights += g.getWeight();
+            totalWeightedGpa +=g.getGpaPoint() *g.getWeight();
         }
         
         double finalMark = 0;
+        double gpa = 0;
         if (totalWeights != 0) {
             finalMark = totalWeightedMarks / totalWeights;
+            gpa = totalWeightedGpa/totalWeights;
         }
 
         // Build report
@@ -43,6 +47,7 @@ public class ReportGenerator {
         report.append("\nfinalMark: ").append(String.format("%.2f", finalMark)).append(" weighted\n");
         report.append("Attendance: ").append(attendance.getAttended()).append("/").append(attendance.getTotal());
         report.append(" (").append(String.format("%.2f", attendance.getPercentage())).append("%)\n");
+        report.append("GPA:").append(String.format("%.2f",gpa)).append("/ 4.00/n");
 
         return report.toString();
     }
